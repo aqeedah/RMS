@@ -22,33 +22,33 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Panel1 = New Panel()
-        TextBox8 = New TextBox()
+        Confirmpassword = New TextBox()
         Label3 = New Label()
         Label17 = New Label()
-        TextBox7 = New TextBox()
-        Button1 = New Button()
-        TextBox6 = New TextBox()
+        Password = New TextBox()
+        Submit = New Button()
+        Mobilenumber = New TextBox()
         ComboBox2 = New ComboBox()
         Label12 = New Label()
-        TextBox5 = New TextBox()
-        TextBox4 = New TextBox()
-        TextBox3 = New TextBox()
+        Lastname = New TextBox()
+        Email = New TextBox()
+        Firstname = New TextBox()
         Label11 = New Label()
         Label10 = New Label()
-        ComboBox1 = New ComboBox()
         Label9 = New Label()
-        Label8 = New Label()
         Label7 = New Label()
         Label6 = New Label()
         Label5 = New Label()
-        TextBox2 = New TextBox()
-        TextBox1 = New TextBox()
+        Brandname = New TextBox()
+        Storename = New TextBox()
         Label4 = New Label()
         Label2 = New Label()
         StoreAddress = New TextBox()
         Label1 = New Label()
         Panel2 = New Panel()
+        PictureBox2 = New PictureBox()
         Label16 = New Label()
         PictureBox1 = New PictureBox()
         Label15 = New Label()
@@ -56,6 +56,7 @@ Partial Class Form1
         Label14 = New Label()
         Panel1.SuspendLayout()
         Panel2.SuspendLayout()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -64,27 +65,25 @@ Partial Class Form1
         Panel1.BackColor = Color.White
         Panel1.BackgroundImageLayout = ImageLayout.Stretch
         Panel1.BorderStyle = BorderStyle.Fixed3D
-        Panel1.Controls.Add(TextBox8)
+        Panel1.Controls.Add(Confirmpassword)
         Panel1.Controls.Add(Label3)
         Panel1.Controls.Add(Label17)
-        Panel1.Controls.Add(TextBox7)
-        Panel1.Controls.Add(Button1)
-        Panel1.Controls.Add(TextBox6)
+        Panel1.Controls.Add(Password)
+        Panel1.Controls.Add(Submit)
+        Panel1.Controls.Add(Mobilenumber)
         Panel1.Controls.Add(ComboBox2)
         Panel1.Controls.Add(Label12)
-        Panel1.Controls.Add(TextBox5)
-        Panel1.Controls.Add(TextBox4)
-        Panel1.Controls.Add(TextBox3)
+        Panel1.Controls.Add(Lastname)
+        Panel1.Controls.Add(Email)
+        Panel1.Controls.Add(Firstname)
         Panel1.Controls.Add(Label11)
         Panel1.Controls.Add(Label10)
-        Panel1.Controls.Add(ComboBox1)
         Panel1.Controls.Add(Label9)
-        Panel1.Controls.Add(Label8)
         Panel1.Controls.Add(Label7)
         Panel1.Controls.Add(Label6)
         Panel1.Controls.Add(Label5)
-        Panel1.Controls.Add(TextBox2)
-        Panel1.Controls.Add(TextBox1)
+        Panel1.Controls.Add(Brandname)
+        Panel1.Controls.Add(Storename)
         Panel1.Controls.Add(Label4)
         Panel1.Controls.Add(Label2)
         Panel1.Controls.Add(StoreAddress)
@@ -94,20 +93,20 @@ Partial Class Form1
         Panel1.Size = New Size(607, 953)
         Panel1.TabIndex = 2
         ' 
-        ' TextBox8
+        ' Confirmpassword
         ' 
-        TextBox8.BackColor = SystemColors.ControlLight
-        TextBox8.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox8.Location = New Point(52, 791)
-        TextBox8.Name = "TextBox8"
-        TextBox8.Size = New Size(531, 34)
-        TextBox8.TabIndex = 26
+        Confirmpassword.BackColor = SystemColors.ControlLight
+        Confirmpassword.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Confirmpassword.Location = New Point(52, 744)
+        Confirmpassword.Name = "Confirmpassword"
+        Confirmpassword.Size = New Size(531, 34)
+        Confirmpassword.TabIndex = 26
         ' 
         ' Label3
         ' 
         Label3.AutoSize = True
         Label3.Font = New Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label3.Location = New Point(55, 763)
+        Label3.Location = New Point(55, 716)
         Label3.Name = "Label3"
         Label3.Size = New Size(199, 25)
         Label3.TabIndex = 25
@@ -117,42 +116,42 @@ Partial Class Form1
         ' 
         Label17.AutoSize = True
         Label17.Font = New Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label17.Location = New Point(52, 688)
+        Label17.Location = New Point(52, 630)
         Label17.Name = "Label17"
         Label17.Size = New Size(109, 25)
         Label17.TabIndex = 24
         Label17.Text = "Password"
         ' 
-        ' TextBox7
+        ' Password
         ' 
-        TextBox7.BackColor = SystemColors.ControlLight
-        TextBox7.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox7.Location = New Point(55, 716)
-        TextBox7.Name = "TextBox7"
-        TextBox7.Size = New Size(531, 34)
-        TextBox7.TabIndex = 23
+        Password.BackColor = SystemColors.ControlLight
+        Password.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Password.Location = New Point(55, 658)
+        Password.Name = "Password"
+        Password.Size = New Size(531, 34)
+        Password.TabIndex = 23
         ' 
-        ' Button1
+        ' Submit
         ' 
-        Button1.BackColor = Color.Black
-        Button1.FlatStyle = FlatStyle.Popup
-        Button1.Font = New Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Button1.ForeColor = Color.Transparent
-        Button1.Location = New Point(50, 877)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(531, 46)
-        Button1.TabIndex = 22
-        Button1.Text = "Submit"
-        Button1.UseVisualStyleBackColor = False
+        Submit.BackColor = Color.Black
+        Submit.FlatStyle = FlatStyle.Popup
+        Submit.Font = New Font("Times New Roman", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Submit.ForeColor = Color.Transparent
+        Submit.Location = New Point(55, 830)
+        Submit.Name = "Submit"
+        Submit.Size = New Size(531, 46)
+        Submit.TabIndex = 22
+        Submit.Text = "Submit"
+        Submit.UseVisualStyleBackColor = False
         ' 
-        ' TextBox6
+        ' Mobilenumber
         ' 
-        TextBox6.BackColor = SystemColors.ControlLight
-        TextBox6.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox6.Location = New Point(146, 552)
-        TextBox6.Name = "TextBox6"
-        TextBox6.Size = New Size(435, 34)
-        TextBox6.TabIndex = 21
+        Mobilenumber.BackColor = SystemColors.ControlLight
+        Mobilenumber.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Mobilenumber.Location = New Point(146, 477)
+        Mobilenumber.Name = "Mobilenumber"
+        Mobilenumber.Size = New Size(435, 34)
+        Mobilenumber.TabIndex = 21
         ' 
         ' ComboBox2
         ' 
@@ -160,7 +159,7 @@ Partial Class Form1
         ComboBox2.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
         ComboBox2.FormattingEnabled = True
         ComboBox2.Items.AddRange(New Object() {"🇨🇦            Canada             +1"})
-        ComboBox2.Location = New Point(55, 552)
+        ComboBox2.Location = New Point(55, 477)
         ComboBox2.Name = "ComboBox2"
         ComboBox2.Size = New Size(65, 34)
         ComboBox2.TabIndex = 20
@@ -170,44 +169,44 @@ Partial Class Form1
         ' 
         Label12.AutoSize = True
         Label12.Font = New Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label12.Location = New Point(52, 612)
+        Label12.Location = New Point(52, 537)
         Label12.Name = "Label12"
         Label12.Size = New Size(68, 25)
         Label12.TabIndex = 19
         Label12.Text = "Email"
         ' 
-        ' TextBox5
+        ' Lastname
         ' 
-        TextBox5.BackColor = SystemColors.ControlLight
-        TextBox5.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox5.Location = New Point(342, 466)
-        TextBox5.Name = "TextBox5"
-        TextBox5.Size = New Size(241, 34)
-        TextBox5.TabIndex = 18
+        Lastname.BackColor = SystemColors.ControlLight
+        Lastname.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Lastname.Location = New Point(342, 391)
+        Lastname.Name = "Lastname"
+        Lastname.Size = New Size(241, 34)
+        Lastname.TabIndex = 18
         ' 
-        ' TextBox4
+        ' Email
         ' 
-        TextBox4.BackColor = SystemColors.ControlLight
-        TextBox4.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox4.Location = New Point(52, 640)
-        TextBox4.Name = "TextBox4"
-        TextBox4.Size = New Size(531, 34)
-        TextBox4.TabIndex = 17
+        Email.BackColor = SystemColors.ControlLight
+        Email.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Email.Location = New Point(52, 565)
+        Email.Name = "Email"
+        Email.Size = New Size(531, 34)
+        Email.TabIndex = 17
         ' 
-        ' TextBox3
+        ' Firstname
         ' 
-        TextBox3.BackColor = SystemColors.ControlLight
-        TextBox3.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox3.Location = New Point(52, 466)
-        TextBox3.Name = "TextBox3"
-        TextBox3.Size = New Size(241, 34)
-        TextBox3.TabIndex = 16
+        Firstname.BackColor = SystemColors.ControlLight
+        Firstname.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Firstname.Location = New Point(52, 391)
+        Firstname.Name = "Firstname"
+        Firstname.Size = New Size(241, 34)
+        Firstname.TabIndex = 16
         ' 
         ' Label11
         ' 
         Label11.AutoSize = True
         Label11.Font = New Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label11.Location = New Point(342, 438)
+        Label11.Location = New Point(342, 363)
         Label11.Name = "Label11"
         Label11.Size = New Size(117, 25)
         Label11.TabIndex = 15
@@ -217,43 +216,21 @@ Partial Class Form1
         ' 
         Label10.AutoSize = True
         Label10.Font = New Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label10.Location = New Point(52, 524)
+        Label10.Location = New Point(52, 449)
         Label10.Name = "Label10"
         Label10.Size = New Size(234, 25)
         Label10.TabIndex = 14
         Label10.Text = "Mobile phone number"
         ' 
-        ' ComboBox1
-        ' 
-        ComboBox1.BackColor = SystemColors.ControlLight
-        ComboBox1.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        ComboBox1.FormattingEnabled = True
-        ComboBox1.Items.AddRange(New Object() {"Restaurant", "Specialty food store"})
-        ComboBox1.Location = New Point(52, 382)
-        ComboBox1.Name = "ComboBox1"
-        ComboBox1.Size = New Size(531, 34)
-        ComboBox1.TabIndex = 13
-        ComboBox1.Text = "Select"
-        ' 
         ' Label9
         ' 
         Label9.AutoSize = True
         Label9.Font = New Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label9.Location = New Point(52, 438)
+        Label9.Location = New Point(52, 363)
         Label9.Name = "Label9"
         Label9.Size = New Size(120, 25)
         Label9.TabIndex = 12
         Label9.Text = "First name"
-        ' 
-        ' Label8
-        ' 
-        Label8.AutoSize = True
-        Label8.Font = New Font("Times New Roman", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label8.Location = New Point(52, 354)
-        Label8.Name = "Label8"
-        Label8.Size = New Size(146, 25)
-        Label8.TabIndex = 11
-        Label8.Text = "Business type"
         ' 
         ' Label7
         ' 
@@ -283,23 +260,23 @@ Partial Class Form1
         Label5.TabIndex = 8
         Label5.Text = "Brand name"
         ' 
-        ' TextBox2
+        ' Brandname
         ' 
-        TextBox2.BackColor = SystemColors.ControlLight
-        TextBox2.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox2.Location = New Point(52, 268)
-        TextBox2.Name = "TextBox2"
-        TextBox2.Size = New Size(531, 34)
-        TextBox2.TabIndex = 7
+        Brandname.BackColor = SystemColors.ControlLight
+        Brandname.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Brandname.Location = New Point(52, 268)
+        Brandname.Name = "Brandname"
+        Brandname.Size = New Size(531, 34)
+        Brandname.TabIndex = 7
         ' 
-        ' TextBox1
+        ' Storename
         ' 
-        TextBox1.BackColor = SystemColors.ControlLight
-        TextBox1.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        TextBox1.Location = New Point(52, 98)
-        TextBox1.Name = "TextBox1"
-        TextBox1.Size = New Size(531, 34)
-        TextBox1.TabIndex = 6
+        Storename.BackColor = SystemColors.ControlLight
+        Storename.Font = New Font("Times New Roman", 13.8F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
+        Storename.Location = New Point(52, 98)
+        Storename.Name = "Storename"
+        Storename.Size = New Size(531, 34)
+        Storename.TabIndex = 6
         ' 
         ' Label4
         ' 
@@ -344,6 +321,7 @@ Partial Class Form1
         ' 
         Panel2.AutoSize = True
         Panel2.BackColor = Color.DarkSalmon
+        Panel2.Controls.Add(PictureBox2)
         Panel2.Controls.Add(Label16)
         Panel2.Controls.Add(PictureBox1)
         Panel2.Controls.Add(Label15)
@@ -352,11 +330,22 @@ Partial Class Form1
         Panel2.Size = New Size(1478, 78)
         Panel2.TabIndex = 3
         ' 
+        ' PictureBox2
+        ' 
+        PictureBox2.BorderStyle = BorderStyle.Fixed3D
+        PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), Image)
+        PictureBox2.Location = New Point(1254, 35)
+        PictureBox2.Name = "PictureBox2"
+        PictureBox2.Size = New Size(24, 23)
+        PictureBox2.SizeMode = PictureBoxSizeMode.Zoom
+        PictureBox2.TabIndex = 27
+        PictureBox2.TabStop = False
+        ' 
         ' Label16
         ' 
         Label16.AutoSize = True
         Label16.Font = New Font("Trebuchet MS", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
-        Label16.Location = New Point(1284, 27)
+        Label16.Location = New Point(1284, 28)
         Label16.Name = "Label16"
         Label16.Size = New Size(85, 36)
         Label16.TabIndex = 23
@@ -429,6 +418,7 @@ Partial Class Form1
         Panel1.PerformLayout()
         Panel2.ResumeLayout(False)
         Panel2.PerformLayout()
+        CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
@@ -441,30 +431,29 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Brandname As TextBox
+    Friend WithEvents Storename As TextBox
     Friend WithEvents Label4 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents Label9 As Label
-    Friend WithEvents Label8 As Label
     Friend WithEvents Label12 As Label
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents Lastname As TextBox
+    Friend WithEvents Email As TextBox
+    Friend WithEvents Firstname As TextBox
     Friend WithEvents Label11 As Label
     Friend WithEvents Label10 As Label
     Friend WithEvents ComboBox2 As ComboBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents Button1 As Button
+    Friend WithEvents Mobilenumber As TextBox
+    Friend WithEvents Submit As Button
     Friend WithEvents Label13 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label15 As Label
     Friend WithEvents Label14 As Label
     Friend WithEvents Label16 As Label
-    Friend WithEvents TextBox7 As TextBox
+    Friend WithEvents Password As TextBox
     Friend WithEvents Label17 As Label
-    Friend WithEvents TextBox8 As TextBox
+    Friend WithEvents Confirmpassword As TextBox
     Friend WithEvents Label3 As Label
+    Friend WithEvents PictureBox2 As PictureBox
 
 End Class

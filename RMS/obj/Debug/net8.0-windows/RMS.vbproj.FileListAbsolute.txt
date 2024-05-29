@@ -17,3 +17,5 @@ C:\Users\dvana\source\RMS\RMS\obj\Debug\net8.0-windows\refint\RMS.dll
 C:\Users\dvana\source\RMS\RMS\obj\Debug\net8.0-windows\RMS.pdb
 C:\Users\dvana\source\RMS\RMS\obj\Debug\net8.0-windows\RMS.genruntimeconfig.cache
 C:\Users\dvana\source\RMS\RMS\obj\Debug\net8.0-windows\ref\RMS.dll
+C:\Users\dvana\source\RMS\RMS\obj\Debug\net8.0-windows\RMS.Customer_Reg.resources
+C:\Users\dvana\source\RMS\RMS\obj\Debug\net8.0-windows\RMS.Customer_Login.resources

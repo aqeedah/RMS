@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\dvana\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\dvana\\.nuget\\packages"
+      "C:\\Users\\prach\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\prach\\.nuget\\packages"
     ],
     "configProperties": {
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
